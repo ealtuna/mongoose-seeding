@@ -1,0 +1,44 @@
+{
+  "name": "mongoose-seeding",
+  "version": "1.0.0",
+  "description": "Tool to generate random data for your database based in your project models using as input mongoose schemas or models",
+  "main": "./dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "mongoose-seeding": "./bin/run"
+  },
+  "scripts": {
+    "build": "rm -rf ./dist && tsc -d --outDir ./dist",
+    "start": "tsc && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ealtuna/mongoose-model-faker.git"
+  },
+  "keywords": [
+    "mongoose",
+    "faker",
+    "database",
+    "generator",
+    "data",
+    "loader"
+  ],
+  "author": "Enrique Altuna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ealtuna/mongoose-model-faker/issues"
+  },
+  "homepage": "https://github.com/ealtuna/mongoose-model-faker#readme",
+  "devDependencies": {
+    "@types/faker": "^4.1.5",
+    "@types/minimist": "^1.2.0",
+    "@types/mongoose": "5.2.19",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.4.4"
+  },
+  "dependencies": {
+    "faker": "^4.1.0",
+    "minimist": "^1.2.0",
+    "mongoose": "^5.3.4"
+  }
+}

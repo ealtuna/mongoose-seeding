@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "ES2017",
+        "module": "commonjs",
+        "strict": true,
+        "strictNullChecks": false,
+        "noImplicitAny": false,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "removeComments": false,
+        "paths": {
+            "*": [
+                "node_modules/*",
+                "types/*"
+            ]
+        },
+        "baseUrl": "./"
+    }
+}
